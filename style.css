@@ -1,0 +1,79 @@
+/* Questão 16: Fonte Arial */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Questão 22: Espaçamento interno no main */
+main {
+  padding: 20px;
+}
+
+/* Questão 17: Título principal */
+h1 {
+  color: darkblue;
+  text-align: center;
+}
+
+/* Questão 18: Seletores agrupados */
+h2, h3 {
+  color: darkgreen;
+}
+
+/* Questão 19: Classe de destaque */
+.destaque {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Questão 20: Seletor ID */
+#sobre {
+  background-color: #f0f0f0;
+}
+
+/* Questão 23: Margens externas nas seções */
+section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Questão 21 e 24: Imagem flutuante e largura */
+img {
+  width: 300px;
+  height: auto;
+  float: left;
+  margin-right: 20px;
+}
+
+/* Questão 25: Estilização da tabela */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 10px;
+}
+
+/* Questão 26: Estilização do menu */
+nav {
+  background-color: darkblue;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Questão 27: Estilização do rodapé */
+footer {
+  background-color: #f0f0f0;
+  padding: 15px;
+  text-align: center;
+}
