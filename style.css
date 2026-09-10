@@ -1,13 +1,29 @@
-/* Questão 16: Fonte Arial */
+/* Questão 16: Fonte Arial para a página toda */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
-/* Questão 22: Espaçamento interno no main */
+/* Questão 26: Menu de navegação */
+nav {
+  background-color: darkblue; /* Fundo azul-escuro */
+  padding: 15px;             /* 15px de espaçamento interno */
+}
+
+nav a {
+  color: white;              /* Texto branco */
+  text-decoration: none;     /* Remove o sublinhado */
+}
+
+/* Questão 22: Espaçamento no <main> */
 main {
   padding: 20px;
+}
+
+/* Questão 23: Margens externas nas seções */
+section {
+  margin: 20px 0;
 }
 
 /* Questão 17: Título principal */
@@ -16,7 +32,7 @@ h1 {
   text-align: center;
 }
 
-/* Questão 18: Seletores agrupados */
+/* Questão 18: Seletores agrupados para h2 e h3 */
 h2, h3 {
   color: darkgreen;
 }
@@ -27,26 +43,30 @@ h2, h3 {
   font-weight: bold;
 }
 
-/* Questão 20: Seletor ID */
+/* Questão 20: Seletor de ID para a seção sobre */
 #sobre {
   background-color: #f0f0f0;
-}
-
-/* Questão 23: Margens externas nas seções */
-section {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding: 15px;
 }
 
 /* Questão 21 e 24: Imagem flutuante e largura */
-img {
-  width: 300px;
-  height: auto;
-  float: left;
-  margin-right: 20px;
+figure {
+  margin: 0;
+  overflow: hidden; /* Limpa o float no contêiner */
 }
 
-/* Questão 25: Estilização da tabela */
+figure img {
+  width: 300px;
+  height: auto;
+  float: left;          /* Flutua a imagem para a esquerda */
+  margin-right: 20px;   /* Margem de 20px à direita */
+}
+
+figcaption {
+  padding-top: 5px;     /* Legenda fica ao lado da imagem flutuante */
+}
+
+/* Questão 25: Tabela */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -54,24 +74,11 @@ table {
 
 table, th, td {
   border: 1px solid #ccc;
-}
-
-th, td {
   padding: 10px;
+  text-align: left;
 }
 
-/* Questão 26: Estilização do menu */
-nav {
-  background-color: darkblue;
-  padding: 15px;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-}
-
-/* Questão 27: Estilização do rodapé */
+/* Questão 27: Rodapé */
 footer {
   background-color: #f0f0f0;
   padding: 15px;
